@@ -4,7 +4,7 @@
       <h2 class="text-3xl font-heading font-bold text-center mb-12">Para Todos os Públicos</h2>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div v-for="segment in segments" :key="segment.title" class="text-center p-8 rounded-lg bg-light transition-all hover:shadow-lg">
+        <div v-for="segment in segments" :key="segment.title" class="text-center p-8 rounded-lg shadow-md transition-all hover:shadow-lg bg-light hover:shadow-lg">
           <div class="w-20 h-20 bg-secondary rounded-full flex items-center justify-center mx-auto mb-6">
             <i :class="`fas ${segment.icon} text-gray-brand text-2xl`"></i>
           </div>

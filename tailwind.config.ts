@@ -7,8 +7,9 @@ export default <Partial<Config>>{
                 'gray-brand': '#414141',
             },
             fontFamily: {
-                heading: ['Georgia', 'serif'],
-                body: ['Arial', 'sans-serif'],
+                heading: ['Zodiak', 'Georgia', 'serif'],
+                body: ['Instrument Sans', 'Arial', 'sans-serif'],
+                sans: ['Instrument Sans', 'Arial', 'sans-serif'],
             },
         },
     },

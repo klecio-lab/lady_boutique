@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white rounded-lg overflow-hidden product-card transition-all">
+  <div class="bg-white rounded-lg shadow-md hover:shadow-lg overflow-hidden product-card transition-all">
     <div class="h-64 bg-cover bg-center" :style="`background-image: url('${product.image}');`"></div>
     <div class="p-6">
       <h3 class="text-xl font-heading font-semibold mb-2">{{ product.name }}</h3>

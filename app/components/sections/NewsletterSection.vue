@@ -1,7 +1,7 @@
 <template>
-  <section class="newsletter-bg py-16 text-gray-brand">
+  <section class="newsletter-bg py-16 text-white">
     <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl font-heading font-bold mb-4">Fique por dentro das novidades</h2>
+      <h2 class="text-3xl text-white font-heading font-bold mb-4">Fique por dentro das novidades</h2>
       <p class="text-xl mb-8">Receba ofertas exclusivas e seja o primeiro a saber sobre novos lançamentos.</p>
 
       <form @submit.prevent="subscribeNewsletter" class="max-w-md mx-auto flex">
@@ -12,7 +12,7 @@
             class="flex-grow px-4 py-3 rounded-l-full focus:outline-none text-primary"
             required
         >
-        <button type="submit" class="bg-secondary px-6 py-3 rounded-r-full font-medium hover:bg-accent transition-all">Inscrever</button>
+        <button type="submit" class="bg-primary px-6 py-3 rounded-r-full font-medium hover:bg-white rounded-lg shadow-md transition-all hover:shadow-lg">Inscrever</button>
       </form>
     </div>
   </section>
