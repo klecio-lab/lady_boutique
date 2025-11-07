@@ -4,6 +4,7 @@
     <BenefitsSection />
     <CollectionSection />
     <SegmentsSection />
+    <MosaicSection />
     <TestimonialsSection />
     <ContactSection />
     <InstagramSection />
@@ -18,6 +19,7 @@ import HeroSection from '~/components/sections/HeroSection.vue'
 import BenefitsSection from '~/components/sections/BenefitsSection.vue'
 import CollectionSection from '~/components/sections/CollectionSection.vue'
 import SegmentsSection from '~/components/sections/SegmentsSection.vue'
+import MosaicSection from '~/components/sections/MosaicSection.vue'
 import TestimonialsSection from '~/components/sections/TestimonialsSection.vue'
 import ContactSection from '~/components/sections/ContactSection.vue'
 import InstagramSection from '~/components/sections/InstagramSection.vue'

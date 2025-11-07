@@ -7,9 +7,9 @@
         <a
             href="https://www.instagram.com/_ladyboutique1/"
             target="_blank"
-            class="inline-flex items-center bg-gradient-to-r from-purple-600 via-pink-600 to-orange-600 text-gray-brand px-8 py-3 rounded-full font-medium hover:shadow-lg transition-all"
+            class="inline-flex items-center bg-gradient-to-r from-purple-600 via-pink-600 to-orange-600 text-white px-8 py-3 rounded-full font-medium hover:shadow-lg transition-all"
         >
-          <i class="fab fa-instagram text-2xl mr-3"></i>
+          <i class="fab fa-instagram text-2xl mr-3 text-white"></i>
           @_ladyboutique1
         </a>
       </div>

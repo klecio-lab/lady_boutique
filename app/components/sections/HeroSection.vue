@@ -9,7 +9,7 @@
             Ver Coleção
           </a>
           <a
-              href="https://wa.me/5581999999999?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20as%20bolsas%20da%20Lady%20Boutique"
+              href="https://wa.me/5581988704806?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20as%20bolsas%20da%20Lady%20Boutique"
               class="border-2 border-white text-white px-6 py-3 rounded-full font-medium text-center hover:bg-white hover:text-gray-brand transition-all"
           >
             Compre Agora

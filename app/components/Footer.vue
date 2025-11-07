@@ -13,7 +13,7 @@
             <a href="#" class="text-gray-brand hover:text-secondary transition-all">
               <i class="fab fa-facebook text-xl"></i>
             </a>
-            <a href="https://wa.me/5581999999999" target="_blank" class="text-gray-brand hover:text-secondary transition-all">
+            <a href="https://wa.me/5581988704806" target="_blank" class="text-gray-brand hover:text-secondary transition-all">
               <i class="fab fa-whatsapp text-xl"></i>
             </a>
           </div>

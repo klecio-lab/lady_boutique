@@ -15,9 +15,12 @@ definePageMeta({
 
 <style>
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1591561954557-26941169b49e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1748&q=80');
+  background-image:
+      linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+      url('/Dona1.jpg'); /* <- caminho relativo à pasta /public */
   background-size: cover;
-  background-position: center;
+  background-position: center top 1%; /* <- controla o foco vertical */
+  height: 60vh; /* ajusta a altura da seção */
 }
 
 

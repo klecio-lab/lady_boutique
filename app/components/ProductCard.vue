@@ -7,7 +7,7 @@
       <div class="flex justify-between items-center">
         <span class="text-2xl font-bold text-secondary">{{ product.price }}</span>
         <a
-            :href="`https://wa.me/5581999999999?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20${product.name}`"
+            :href="`https://wa.me/5581988704806?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20${product.name}`"
             class="bg-primary text-gray-brand px-4 py-2 rounded-full text-sm hover:bg-secondary transition-all"
         >
           Comprar

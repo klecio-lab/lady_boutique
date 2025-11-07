@@ -43,7 +43,7 @@
         <h3 class="text-2xl font-heading font-bold mb-4">Compre online também!</h3>
         <p class="text-lg mb-6">Entre em contato pelo WhatsApp e faça seu pedido.</p>
         <a
-            href="https://wa.me/5581999999999?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20as%20bolsas%20da%20Lady%20Boutique"
+            href="https://wa.me/5581988704806?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20as%20bolsas%20da%20Lady%20Boutique"
             class="bg-secondary text-gray-brand px-8 py-3 rounded-full font-medium text-lg hover:bg-accent transition-all inline-block"
         >
           <i class="fab fa-whatsapp mr-2"></i>Fale Conosco no WhatsApp
