@@ -1,10 +1,22 @@
 <template>
-  <div class="bg-white rounded-lg shadow-md hover:shadow-lg overflow-hidden product-card transition-all">
-    <div class="h-64 bg-cover bg-center" :style="`background-image: url('${product.image}');`"></div>
-    <div class="p-6">
+  <div class="h-full bg-white rounded-lg shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col group overflow-hidden">
+    <!-- Imagem com Zoom -->
+    <div class="h-80 overflow-hidden relative">
+      <NuxtImg 
+        :src="product.image" 
+        :alt="product.name"
+        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+        loading="lazy"
+      />
+    </div>
+    
+    <!-- Conteúdo Flexível -->
+    <div class="p-6 flex flex-col flex-1">
       <h3 class="text-xl font-heading font-semibold mb-2">{{ product.name }}</h3>
-      <p class="text-gray-brand mb-4">{{ product.description }}</p>
-      <div class="flex justify-between items-center">
+      <p class="text-gray-brand mb-4 flex-1">{{ product.description }}</p>
+      
+      <!-- Footer alinhado -->
+      <div class="flex justify-between items-center mt-auto">
         <span class="text-2xl font-bold text-secondary">{{ product.price }}</span>
         <a
             :href="`https://wa.me/5581988704806?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20${product.name}`"
