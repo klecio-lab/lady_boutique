@@ -33,9 +33,9 @@ const products = [
     image: '/bolsas/WhatsApp Image 2025-11-07 at 11.45.24.jpeg'
   },
   {
-    name: 'Bolsa Quadradinha',
+    name: 'Bolsa Executiva',
     description: 'Timeless e sofisticada, perfeita para ocasiões especiais.',
-    price: 'R$ 19,99',
+    price: 'R$ 49,99',
     image: '/bolsas/WhatsApp Image 2025-11-07 at 11.47.41.jpeg'
   },
   {
