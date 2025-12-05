@@ -12,7 +12,7 @@
             class="flex-grow px-4 py-3 rounded-l-full focus:outline-none text-primary"
             required
         >
-        <button type="submit" class="bg-primary px-6 py-3 rounded-r-full font-medium hover:bg-white rounded-lg shadow-md transition-all hover:shadow-lg">Inscrever</button>
+        <button type="submit" class="bg-gray-brand px-6 py-3 rounded-r-full font-medium hover:bg-white rounded-lg shadow-md transition-all hover:shadow-lg hover:text-gray-brand">Inscrever</button>
       </form>
     </div>
   </section>

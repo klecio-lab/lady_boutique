@@ -14,14 +14,7 @@ definePageMeta({
 </script>
 
 <style>
-.hero-image {
-  background-image:
-      linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-      url('/Dona1.jpg'); /* <- caminho relativo à pasta /public */
-  background-size: cover;
-  background-position: center top 1%; /* <- controla o foco vertical */
-  height: 60vh; /* ajusta a altura da seção */
-}
+
 
 
 

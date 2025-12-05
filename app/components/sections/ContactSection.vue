@@ -24,7 +24,7 @@
         </div>
 
         <div class="md:w-1/2 w-full">
-          <div class="rounded-lg overflow-hidden shadow-lg h-80">
+          <div class="rounded-lg overflow-hidden shadow-lg h-[31rem]">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.8491492085154!2d-34.90609342499383!3d-7.910822592112452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab15238e005863%3A0x342b308fb3ffa599!2sLady%20Boutique!5e0!3m2!1spt-BR!2sbr!4v1762532170022!5m2!1spt-BR!2sbr"
                 width="100%"

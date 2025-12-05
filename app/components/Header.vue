@@ -52,21 +52,16 @@
   </header>
 </template>
 
-<script>
-export default {
-  name: 'Header',
-  data() {
-    return {
-      isMenuOpen: false
-    }
-  },
-  methods: {
-    toggleMenu() {
-      this.isMenuOpen = !this.isMenuOpen
-    },
-    closeMenu() {
-      this.isMenuOpen = false
-    }
-  }
+<script setup lang="ts">
+import { ref } from 'vue'
+
+const isMenuOpen = ref(false)
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value
+}
+
+const closeMenu = () => {
+  isMenuOpen.value = false
 }
 </script>
