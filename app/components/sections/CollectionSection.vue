@@ -21,33 +21,33 @@ import ProductCard from '~/components/ProductCard.vue'
 
 const products = [
   {
-    name: 'Bolsa Elegance',
+    name: 'Bolsa Sacolão',
     description: 'Bolsa em couro sintético com alça ajustável e compartimento interno.',
-    price: 'R$ 89,90',
+    price: 'R$ 79,99',
     image: '/bolsas/WhatsApp Image 2025-11-07 at 11.45.23.jpeg'
   },
   {
-    name: 'Bolsa Urban',
+    name: 'Bolsa Quadradinha',
     description: 'Ideal para o dia a dia, com design moderno e prático.',
-    price: 'R$ 79,90',
+    price: 'R$ 19,99',
     image: '/bolsas/WhatsApp Image 2025-11-07 at 11.45.24.jpeg'
   },
   {
-    name: 'Bolsa Classic',
+    name: 'Bolsa Quadradinha',
     description: 'Timeless e sofisticada, perfeita para ocasiões especiais.',
-    price: 'R$ 129,90',
+    price: 'R$ 19,99',
     image: '/bolsas/WhatsApp Image 2025-11-07 at 11.47.41.jpeg'
   },
   {
-    name: 'Bolsa Trend',
+    name: 'Bolsa Baú',
     description: 'Siga as tendências com estilo e conforto.',
-    price: 'R$ 99,90',
+    price: 'R$ 49,99',
     image: '/bolsas/WhatsApp Image 2025-11-07 at 11.49.11.jpeg'
   },
   {
-    name: 'Bolsa Premium',
+    name: 'Bolsa Cleo',
     description: 'Luxo e elegância para quem busca sofisticação.',
-    price: 'R$ 149,90',
+    price: 'R$ 49,99',
     image: '/bolsas/WhatsApp Image 2025-11-07 at 11.49.45.jpeg'
   }
 ]

@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="relative min-h-screen flex items-center">
+  <section id="home" class="relative min-h-[90vh] flex items-center">
     <!-- Imagem de fundo otimizada -->
     <NuxtImg
       src="/Dona1.jpg"
@@ -28,6 +28,22 @@
           </a>
         </div>
       </div>
+    </div>
+
+    <!-- Scroll Down Indicator -->
+    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 z-20">
+      <a 
+        href="#collection" 
+        class="flex flex-col items-center gap-3 group cursor-pointer"
+        aria-label="Rolar para ver coleção"
+      >
+        <span class="text-xs md:text-sm uppercase tracking-[0.2em] text-white/90 font-medium group-hover:text-white transition-colors drop-shadow-md">
+          Ver Coleção
+        </span>
+        <div class="w-12 h-12 rounded-full border border-white/30 flex items-center justify-center bg-white/10 backdrop-blur-md group-hover:bg-secondary group-hover:border-secondary transition-all shadow-lg animate-bounce">
+           <i class="fas fa-arrow-down text-white"></i>
+        </div>
+      </a>
     </div>
   </section>
 </template>

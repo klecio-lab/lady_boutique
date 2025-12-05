@@ -1,8 +1,8 @@
 <template>
   <header class="bg-white shadow-md sticky top-0 z-50">
-    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+    <div class="container mx-auto px-4 py-2 flex justify-between items-center">
       <div class="flex items-center">
-        <h1 class="text-2xl font-heading font-bold text-secondary">Lady <span class="text-primary">Boutique</span></h1>
+        <h1 class="text-xl font-heading font-bold text-secondary">Lady <span class="text-primary">Boutique</span></h1>
       </div>
 
       <!-- Mobile Menu Button -->
